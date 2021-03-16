@@ -101,7 +101,7 @@ button,
     transition: 0.2s opacity;
   }
 
-button:hover, 
+button:hover,
 button:focus,
 .button:hover,
 .button:focus {
@@ -118,7 +118,7 @@ button:focus,
     align-items: center;
     border-bottom: 2px solid var(--accent-color-1);
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .page-header img {
@@ -156,15 +156,16 @@ button:focus,
 
 
 .profile {
-    max-width: 700px;
+    max-width: 710px;
     height: 500px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .profile__text {
     display: inline-block;
     vertical-align: middle;
+
 }
 
 .profile__portrait {
@@ -185,8 +186,14 @@ button:focus,
     margin-bottom: 60px;
 }
 
-.about_text {
+.about__text {
+    display: inline-block;
     vertical-align: middle;
+    padding: 40px 80px;
+    width: 90%;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    background-color: var(--accent-color-1);
 }
 
 
@@ -244,6 +251,10 @@ button:focus,
     margin-bottom: 30px;
 }
 
+.work h1 {
+    text-align: center;
+}
+
 .grid__item {
     display: inline-block;
     width: 33%;
@@ -274,8 +285,26 @@ button:focus,
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
+    text-align: center;
 }
 
+.contact__form--input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact__form--textarea {
+    padding: 30px 10px;
+    resize: none;
+}
+
+.contact__form--input:focus {
+    outline: 2px solid var(--secondary-color);
+
+}
 /* footer section */
 
 
@@ -297,6 +326,12 @@ button:focus,
 @media all and (max-width: 500px) {
     .grid {
       grid-template-columns: 1fr;
+    }
+
+    .about__text {
+        width: 100%;
+        padding: 40px 20px;
+        margin-bottom: 0;
     }
   }
 
@@ -339,4 +374,5 @@ button:focus,
     .about > svg {
         max-width: 90%;
     }
+
 }

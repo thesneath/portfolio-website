@@ -5,7 +5,6 @@
 * Browsers: last 4 version
 */
 
-
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -83,11 +82,11 @@ a:hover::before {
 }
 
 a:hover {
-    color: #595959
+    color: #595959;
 }
 
 a:focus {
-    color: #595959
+    color: #595959;
 }
 
 a:active {
@@ -122,7 +121,7 @@ button {
     transition: 0.2s opacity;
   }
 
-button:hover, 
+button:hover,
 button:focus,
 .button:hover,
 .button:focus {
@@ -143,7 +142,7 @@ button:focus,
             align-items: center;
     border-bottom: 2px solid #A6A6A6;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .page-header img {
@@ -185,15 +184,16 @@ button:focus,
 
 
 .profile {
-    max-width: 700px;
+    max-width: 710px;
     height: 500px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .profile__text {
     display: inline-block;
     vertical-align: middle;
+
 }
 
 .profile__portrait {
@@ -214,8 +214,14 @@ button:focus,
     margin-bottom: 60px;
 }
 
-.about_text {
+.about__text {
+    display: inline-block;
     vertical-align: middle;
+    width: 100%;
+    padding: 40px 80px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    background-color: #A6A6A6;
 }
 
 
@@ -306,13 +312,16 @@ button:focus,
             animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-
 /* work section */
 
 .work {
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
+}
+
+.work h1 {
+    text-align: center;
 }
 
 .grid__item {
@@ -347,8 +356,26 @@ button:focus,
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
+    text-align: center;
 }
 
+.contact__form--input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact__form--textarea {
+    padding: 30px 10px;
+    resize: none;
+}
+
+.contact__form--input:focus {
+    outline: 2px solid #595959;
+
+}
 /* footer section */
 
 
@@ -376,6 +403,12 @@ button:focus,
     .grid {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+    }
+
+    .about__text {
+        width: 100%;
+        padding: 40px 20px;
+        margin-bottom: 0;
     }
   }
 
