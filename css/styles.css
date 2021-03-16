@@ -101,7 +101,7 @@ button,
     transition: 0.2s opacity;
   }
 
-button:hover, 
+button:hover,
 button:focus,
 .button:hover,
 .button:focus {
