@@ -35,30 +35,30 @@
             <div class="contact">
                 <h1>Contact</h1>
 
-                <div>       
-                    Alex Sneath<br>
+                <div class="contact__text">
+                    <strong>Alex Sneath</strong><br>
                     He/Him<br>
                     Spokane, Washington<br>
                     United States<br>
                     <br>
-                    <a href="https://www.linkedin.com/in/alexsneath" target="_blank">LinkedIn</a><br>
-                    Email: <a href="mailto:alex.sneath2@gmail.com">alex.sneath2 (at) gmail (dot) com</a>
+                    Email: <a href="mailto:alex.sneath2@gmail.com">alex.sneath2 (at) gmail (dot) com</a><br>
                     <a href="mailto:alex.sneath2@gmail.com">Contact Me</a>
                 </div>
 
-                <form action="" method="post" id="contact-form">
+                <form action="message" method="post" id="contact-form" class="contact__form">
                     <label for="contact-email">E-mail: </label>
-                    <input type="email" required id="contact-email" placeholder="email"><br>
-                
+                    <input type="email" required id="contact-email" placeholder="email" class="contact__form--input"><br>
+
                     <label for="contact-tel">Telephone: </label>
-                    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel" placeholder="(123)-123-1234"><br>
-                
+                    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel" placeholder="(123)-123-1234" class="contact__form--input"><br>
+
                     <label for="contact-message">Message: </label>
-                    <textarea maxlength="120" required id="contact-message"></textarea><br>
-                
+                    <textarea maxlength="120" required id="contact-message" class="contact__form--input contact__form--textarea"></textarea><br>
+
                     <button>Send Message</button>
                 </form>
-                
+                <a href="mailto:alex.sneath2@gmail.com">Contact Me</a>
+
                 <script src="js/tota11y.min.js"></script>
             </div>
         </main>
@@ -69,6 +69,6 @@
                 <a href="https://twitter.com" class="page-footer__link"><img src="img/twitter.svg" alt="Twitter"></a>
                 <a href="https://www.linkedin.com/in/alexsneath" class="page-footer__link"><img src="img/linkedin.svg" alt="LinkedIn"></a>
             </div>
-        </footer>        
+        </footer>
     </body>
 </html>
