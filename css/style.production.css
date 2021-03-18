@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -217,8 +218,8 @@ button:focus,
 .about__text {
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     padding: 40px 80px;
+    width: 90%;
     margin-bottom: 30px;
     border-radius: 3px;
     background-color: #A6A6A6;
@@ -312,6 +313,7 @@ button:focus,
             animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+
 /* work section */
 
 .work {
@@ -353,14 +355,14 @@ button:focus,
 /* contact section */
 
 .contact {
-    width: 90%;
+    width: 710px;
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .contact__form--input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 3px;
@@ -368,7 +370,7 @@ button:focus,
 }
 
 .contact__form--textarea {
-    padding: 30px 10px;
+    height: 150px;
     resize: none;
 }
 
@@ -452,4 +454,5 @@ button:focus,
     .about > svg {
         max-width: 90%;
     }
+
 }
