@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex Sneath | About Me</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <img
+          src="img/Alex_sneath_logo.svg"
+          alt="logo"
+          class="page-header__item"
+        />
+        <nav class="main-navigation page-header__item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a class="navigation-list__item" href="index.html" role="menuitem"
+                >Home</a
+              >
+            </li>
+            <li role="presentation">
+              <a
+                class="navigation-list__item navigation-list__item--active"
+                href="about.html"
+                role="menuitem"
+                >About Me</a
+              >
+            </li>
+            <li role="presentation">
+              <a class="navigation-list__item" href="work.html" role="menuitem"
+                >Work</a
+              >
+            </li>
+            <li role="presentation">
+              <a
+                class="navigation-list__item"
+                href="contact.html"
+                role="menuitem"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <div class="case-study">
+          <div class="case-study__text">
+            <h1>MyFlix Client | React App</h1>
+            <div class="case-study__item">
+              <h3>Overview</h3>
+              <img class="case-study__img-1" src="./img/landing-page.png" alt="Myflix landing page" />
+              <p>
+                AlexMDB is a web application developed using the MERN stack. The
+                site accesses my database of movies, providing information on
+                the film, director, and genre. Users are able to create an
+                account, add movies to their list of favorites, and update or
+                delete their profile.
+              </p>
+            </div>
+            <div class="case-study__item">
+              <h3>Purpose & Context</h3>
+              <p>
+                This was a personal project, a part of the Full Stack Immersion
+                course through CareerFoundry.
+              </p>
+              <h3>Objective</h3>
+              <p>
+                Mainly, this project served as a way for me to learn full stack
+                development by building an application from the ground up using
+                the MERN stack.
+              </p>
+            </div>
+            <div class="case-study__item">
+              <img class="case-study__img-2" src="./img/movie-card-code.png" alt="login page" />
+              <h3>Approach</h3>
+              <p>
+                Using Node.js and Express, I built a REST API that interacts
+                with a database. The database, created using MongoDB can be
+                accessed using common HTTP requests and JWT authorization.
+                AlexMDB is an app built using React and Redux that uses this API
+                to access and visualize information stored in the created
+                database.
+              </p>
+            </div>
+            <div class="case-study__item">
+              <h3>Challenges</h3>
+              <p>
+                Learning to use React to build this app was far and above the
+                most difficult task I have completed in my programming journey.
+                Prior to this project, having only experienced vanilla
+                JavaScript and Node.js, React required an overhaul in the way I
+                think about coding and web development as a whole. I spent many
+                an hour poring over documentation, watching video lessons and
+                messaging back and forth with my CareerFoundry Tutor.
+                Fortunately, I was able to learn enough to be dangerous and
+                built an app I am proud of (and will continue to tinker with and
+                improve for ages).
+              </p>
+              <img class="case-study__img-3" src="./img/login-page.png" alt="code snippet" />
+            </div>
+            <div class="case-study__item">
+              <h3>See my work:</h3>
+              <p>
+                <span>Server Side:</span> <a href="https://github.com/thesneath/movie_api">Movie API</a> 
+              </p>
+              <p>
+                <span>Client Side:</span> <a href="https://github.com/thesneath/myflix-client">MyFlix Client</a> 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="social-media">
+        <p>Find me on:</p>
+        <a href="https://github.com/thesneath" class="page-footer__link"
+          ><img src="img/github.svg" alt="Github"
+        /></a>
+        <!-- <a href="https://twitter.com" class="page-footer__link"
+          ><img src="img/twitter.svg" alt="Twitter"
+        /></a> -->
+        <a
+          href="https://www.linkedin.com/in/alexsneath"
+          class="page-footer__link"
+          ><img src="img/linkedin.svg" alt="LinkedIn"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
