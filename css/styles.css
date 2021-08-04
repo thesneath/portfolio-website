@@ -250,6 +250,54 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
+  padding: 10px;
+}
+
+/* case study */
+
+.case-study {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.case-study__text {
+    padding: 40px 60px;
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: var(--accent-color-1);
+}
+
+.case-study__item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.case-study__img-1 {
+  max-width: 40%;
+  float: right;
+  border-radius: 2px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.case-study__img-2 {
+  max-width: 50%;
+  float: left;
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.case-study__img-3 {
+  max-width: 40%;
+  float: right;
+  border-radius: 2px;
+  margin: 20px;
+}
+
+.case-study span {
+    font-weight: bold;
 }
 
 @supports (display: grid) {
@@ -361,5 +409,9 @@ button:focus,
 
   .about > svg {
     max-width: 90%;
+  }
+
+  .case-study__item img {
+    display: none;
   }
 }
