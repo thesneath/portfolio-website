@@ -1,77 +1,134 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Alex Sneath | Contact</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    </head>
-    <body>
-        <main>
-            <header class="page-header">
-                <!-- add logo here -->
-                <img src="img/Alex_sneath_logo.svg" alt="logo" class="page-header__item">
-                <nav class="main-navigation page-header__item">
-                    <ul role="menubar" class="navigation-list">
-                        <li role="presentation">
-                            <a class="navigation-list__item" href="index.html" role="menuitem">Home</a>
-                        </li>
-                        <li role="presentation">
-                            <a class="navigation-list__item" href="about.html" role="menuitem">About Me</a>
-                        </li>
-                        <li role="presentation">
-                            <a class="navigation-list__item" href="work.html" role="menuitem">Work</a>
-                        </li>
-                        <li role="presentation">
-                            <a class="navigation-list__item navigation-list__item--active" href="contact.html" role="menuitem">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="contact">
-                <h1>Contact</h1>
+  <head>
+    <title>Alex Sneath | Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <!-- add logo here -->
+        <img
+          src="img/Alex_sneath_logo.svg"
+          alt="logo"
+          class="page-header__item"
+        />
+        <nav class="main-navigation page-header__item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a class="navigation-list__item" href="index.html" role="menuitem"
+                >Home</a
+              >
+            </li>
+            <li role="presentation">
+              <a class="navigation-list__item" href="about.html" role="menuitem"
+                >About Me</a
+              >
+            </li>
+            <li role="presentation">
+              <a class="navigation-list__item" href="work.html" role="menuitem"
+                >Work</a
+              >
+            </li>
+            <li role="presentation">
+              <a
+                class="navigation-list__item navigation-list__item--active"
+                href="contact.html"
+                role="menuitem"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contact">
+        <h1>Contact</h1>
 
-                <div class="contact__text">
-                    <strong>Alex Sneath</strong><br>
-                    He/Him<br>
-                    Spokane, Washington<br>
-                    United States<br>
-                    <br>
-                    Email: <a href="mailto:alex.sneath2@gmail.com">alex.sneath2 (at) gmail (dot) com </a><br>
-                    <a href="mailto:alex.sneath2@gmail.com">Contact Me</a>
-                </div>
+        <div class="contact__text">
+          <strong>Alex Sneath</strong><br />
+          He/Him<br />
+          Spokane, Washington<br />
+          United States<br />
+          <br />
+          Email:
+          <a href="mailto:alex.sneath2@gmail.com"
+            >alex.sneath2 (at) gmail (dot) com </a
+          ><br />
+          <a href="mailto:alex.sneath2@gmail.com">Contact Me</a>
+        </div>
 
-                <form action="message" method="post" id="contact-form" class="contact__form">
-                    <label for="contact-email">
-                    <input type="email" required id="contact-email" placeholder="E-mail" class="contact__form--input"><br>
-                    </label>
+        <form
+          action="message"
+          method="post"
+          id="contact-form"
+          class="contact__form"
+        >
+          <label for="contact-email">
+            <input
+              type="email"
+              required
+              id="contact-email"
+              placeholder="E-mail"
+              class="contact__form--input"
+            /><br />
+          </label>
 
-                    <label for="contact-tel">
-                    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel" placeholder="Phone" class="contact__form--input"><br>
-                    </label>
+          <label for="contact-tel">
+            <input
+              type="tel"
+              pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+              id="contact-tel"
+              placeholder="Phone"
+              class="contact__form--input"
+            /><br />
+          </label>
 
-                    <label for="contact-message">
-                    <textarea maxlength="120" required id="contact-message" class="contact__form--input contact__form--textarea" placeholder="Message"></textarea><br>
-                    </label>
+          <label for="contact-message">
+            <textarea
+              maxlength="120"
+              required
+              id="contact-message"
+              class="contact__form--input contact__form--textarea"
+              placeholder="Message"
+            ></textarea
+            ><br />
+          </label>
 
-                    <button>Send Message</button>
-                </form>
-                <a href="mailto:alex.sneath2@gmail.com">Contact Me</a>
+          <button>Send Message</button>
+        </form>
+        <a href="mailto:alexandersneath@gmail.com">Contact Me</a>
 
-                <script src="js/tota11y.min.js"></script>
-            </div>
-        </main>
-        <footer class="page-footer">
-            <div class="social-media">
-                <p>Find me on:</p>
-                <a href="https://github.com" class="page-footer__link"><img src="img/github.svg" alt="Github"></a>
-                <a href="https://twitter.com" class="page-footer__link"><img src="img/twitter.svg" alt="Twitter"></a>
-                <a href="https://www.linkedin.com/in/alexsneath" class="page-footer__link"><img src="img/linkedin.svg" alt="LinkedIn"></a>
-            </div>
-        </footer>
-    </body>
+        <!-- <script src="js/tota11y.min.js"></script> -->
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="social-media">
+        <p>Find me on:</p>
+        <a href="https://github.com/thesneath" class="page-footer__link"
+          ><img src="img/github.svg" alt="Github"
+        /></a>
+        <!-- <a href="https://twitter.com" class="page-footer__link"
+          ><img src="img/twitter.svg" alt="Twitter"
+        /></a> -->
+        <a
+          href="https://www.linkedin.com/in/alexsneath"
+          class="page-footer__link"
+          ><img src="img/linkedin.svg" alt="LinkedIn"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
