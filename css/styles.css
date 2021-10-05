@@ -192,7 +192,7 @@ button:focus,
 }
 
 /* about image */
-
+/* 
 @keyframes color-change {
   0% {
     fill: #edc655;
@@ -233,7 +233,7 @@ button:focus,
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
-}
+} */
 
 /* work section */
 
@@ -413,5 +413,9 @@ button:focus,
 
   .case-study__item img {
     display: none;
+  }
+
+  .contact {
+    width: 100%;
   }
 }
