@@ -118,11 +118,13 @@ button:focus,
   align-items: center;
   border-bottom: 2px solid var(--accent-color-1);
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
-.page-header img {
+.page-header__name {
   max-width: 200px;
+  font-size: 30px;
+  font-family: var(--font-secondary);
 }
 
 .page-header__item {
@@ -154,22 +156,30 @@ button:focus,
 /* profile section */
 
 .profile {
-  max-width: 710px;
-  height: 500px;
-  margin: 0 auto;
-  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  max-height: 525px;
+  height: 100%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.profile__container {
+  height: 100%;
+  overflow: none;
+  margin: 20px;
+  width: 50%;
+  min-width: 350px;
+}
+
+.profile__container img{
+  height: 100%;
+  width: 100%;
 }
 
 .profile__text {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.profile__portrait {
-  float: left;
-  width: 250px;
-  margin-right: 40px;
-  border-radius: 50%;
+  padding-top: 40px;
 }
 
 /* about section */
@@ -303,14 +313,18 @@ button:focus,
 @supports (display: grid) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     justify-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 auto;
+    width: 80%;
   }
 
   .grid__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: var(--accent-color-1);
     width: auto;
     min-height: auto;
@@ -322,7 +336,10 @@ button:focus,
 /* contact section */
 
 .contact {
-  width: 710px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 70%;
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
@@ -387,19 +404,25 @@ button:focus,
   }
 
   .profile {
-    width: 395px;
-    max-width: 100%;
-    display: block;
-    text-align: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    margin: 0; 
+    padding-top: 400px;
+    padding-bottom: 400px;
   }
 
-  .profile__portrait {
-    float: none;
-    margin: auto;
+  .profile__container {
+    width: 100%;
+  }
+
+  .profile__text {
+    padding: 0;
   }
 
   .page-header,
   .page-header__item,
+  .page-header__name,
   .page-header__item:last-child {
     display: block;
     text-align: center;

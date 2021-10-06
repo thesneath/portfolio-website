@@ -11,3 +11,4 @@ This is my static portfolio website, which was built as part of my CareerFoundry
 ## Authors
 
   Alex Sneath
+  Portrait Edited by [Jeremy Won](http://www.jeremywon.com)
